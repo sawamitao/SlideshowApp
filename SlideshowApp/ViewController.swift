@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     var timer: Timer!
     var timer_sec: Float = 0
-    var image_count = ["0","1","2"]
+    var image_count = ["0.jpg","1.jpg","2.jpeg"]
     var i: Int = 0
     
     override func viewDidLoad() {
