@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //初期画像を設定
-        imageView.image = UIImage(named:"0")
+        imageView.image = UIImage(named:"0.jpg")
         autoButton.setTitle("再生", for: .normal)
         
         
