@@ -15,6 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var autoButton: UIButton!
     @IBAction func tapImage(_ sender: AnyObject) {
         performSegue(withIdentifier: "result", sender: nil)
+        self.timer.invalidate()
+        self.timer = nil
+        autoButton.setTitle("再生", for: .normal)
+        backButton.isEnabled = true
+        goButton.isEnabled = true
     }
     
     
